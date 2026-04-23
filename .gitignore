@@ -6,6 +6,8 @@ env/
 # Archivos de configuración sensible (¡CRÍTICO!)
 .env
 config.json
+novedades_pendientes.json
+ultima_ejecucion.json
 *.pem
 secrets.yaml
 
