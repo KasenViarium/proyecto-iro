@@ -80,6 +80,10 @@ if __name__ == "__main__":
             json.dump(lista_novedades, f, indent=4)
         
         logging.info(f"✅ Identificadas {len(lista_novedades)} rutas nuevas.")
+        for i in range(len(lista_novedades)):
+            logging.debug(f"🔎 Ruta {i+1}: {lista_novedades[i]['ruta_completa']} (Modificada: {time.ctime(lista_novedades[i]['mtime_carpeta'])})")
+        
+        
         actualizar_control(FILE_CONTROL, nuevo_ts, "Cambios detectados")
     else:
         logging.info("💤 No hay carpetas modificadas.")
