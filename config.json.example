@@ -1,0 +1,6 @@
+{
+    "RUTA_ORIGEN": "RUTA_DE_TU_RED",
+    "CONFIG_FILE" : "ultima_ejecucion.json",
+    "OUTPUT_FILE" : "novedades_pendientes.json",
+    "TIEMPO_MARGEN_SEGUNDOS": 600
+}
