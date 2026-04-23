@@ -1,0 +1,24 @@
+# Entornos virtuales (NUNCA se suben, pesan mucho y son locales)
+venv/
+.venv/
+env/
+
+# Archivos de configuración sensible (¡CRÍTICO!)
+.env
+config.json
+*.pem
+secrets.yaml
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+
+# Datos (No queremos subir gigas de CSV o Parquet a Git)
+data/
+*.csv
+*.parquet
+*.jsonl
+
+# Basura del sistema operativo
+.DS_Store
+Thumbs.db
